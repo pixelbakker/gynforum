@@ -10,5 +10,5 @@ async function loadPartial(id, url) {
   document.getElementById(id).innerHTML = text;
 }
 
-loadPartial("header", "/src/partials/header.html");
-loadPartial("footer", "/src/partials/footer.html");
+loadPartial("header", "/partials/header.html");
+loadPartial("footer", "/partials/footer.html");
